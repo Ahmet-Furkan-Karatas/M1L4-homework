@@ -42,8 +42,8 @@ class Pokemon:
         return f"""
         Pokémonunuzun ismi: {self.name}
         Türü: {', '.join(self.pokemon_type)}
-        Ağırlığı: {self.weight / 10} kg  # Pokémon ağırlığının doğru birim ile gösterilmesi
-        Boyu: {self.height / 10} m  # Pokémon boyunun doğru birim ile gösterilmesi
+        Ağırlığı: {self.weight / 10} kg
+        Boyu: {self.height / 10} m  
         Yetenekleri: {', '.join(self.abilities)}
         """  # Pokémon hakkında daha fazla bilgiyi içeren bir dize döndürür
 
